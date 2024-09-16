@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+    xmlns:media="http://search.yahoo.com/mrss/"
+    xml:lang="en"
+    xml:base="http://localhost:1313/">
+    <channel>
+        <title>Dramas - The Literary Rat</title>
+        <link>http://localhost:1313/dramas/</link>
+        <description>Ed is a Hugo theme designed for textual editors based on minimal computing principles, and focused on legibility and flexibility.</description>
+        <generator>Hugo 0.134.2</generator>
+        <language>en</language>
+        <copyright>Copyright © 2019-2024 Serghei Iakovlev</copyright>
+        <lastBuildDate>Mon, 16 Sep 2024 16:58:34 -0500</lastBuildDate>
+        <atom:link href="/dramas/" rel="alternate" type="text/html" title="html" />
+        <atom:link href="/dramas/feeds/feed.atom.xml" rel="alternate" type="text/xml" title="atom" />
+        <atom:link href="/dramas/feeds/feed.rss.xml" rel="self" type="text/xml" title="feed" />
+        <atom:link href="/dramas/feeds/feed.json" rel="alternate" type="application/feed+json" title="jsonfeed" />
+        <item>
+            <title>A Raisin in the Sun</title>
+            <link>http://localhost:1313/dramas/raisin/?utm_source=rss_feed</link>
+            <pubDate>Thu, 03 Feb 2022 14:56:58 +0200</pubDate>
+            <author>egrep@protonmail.ch (Serghei Iakovlev)</author>
+            <category>dramas</category>
+            <guid isPermaLink="false">9fb93235fa3e9c9488140bda6a3cff93</guid>
+            <description>&lt;p&gt;(excerpt)&lt;/p&gt;&#xA;&lt;p&gt;MAMA: Son—how come you talk so much &amp;lsquo;bout money?&lt;/p&gt;&#xA;&lt;p&gt;WALTER (&lt;em&gt;with immense passion&lt;/em&gt;): Because it is life, Mama!&lt;/p&gt;&#xA;&lt;p&gt;MAMA: Oh—So now it’s life. Money is life. Once upon a time freedom used to be life—now it’s money. I guess the world really do change &amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;WALTER: No—it was always money, Mama. We just didn’t know about it.&lt;/p&gt;&#xA;&lt;p&gt;MAMA: No &amp;hellip; something has changed. (&lt;em&gt;She looks at him&lt;/em&gt;) You something new, boy. In my time we was worried about not being lynched and getting to the North if we could and how to stay alive and still have a pinch of dignity too &amp;hellip; Now here come you and Beneatha—talking &amp;lsquo;bout things we never even thought about hardly, me and your daddy. You ain’t satisfied or proud of nothing we done. I mean that you had a home; that we kept you out of trouble till you was grown; that you don’t have to ride to work on the back of nobody’s streetcar—You my children—but how different we done become.&lt;/p&gt;</description>
+        </item>
+    
+    </channel>
+</rss>

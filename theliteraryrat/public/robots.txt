@@ -1,0 +1,3 @@
+# robots.txt file for "The Literary Rat" website, localhost:1313
+User-agent: *
+Disallow: /

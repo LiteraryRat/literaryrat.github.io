@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+    xmlns:media="http://search.yahoo.com/mrss/"
+    xml:lang="en"
+    xml:base="http://localhost:1313/">
+    <channel>
+        <title>Posts - The Literary Rat</title>
+        <link>http://localhost:1313/posts/</link>
+        <description>Ed is a Hugo theme designed for textual editors based on minimal computing principles, and focused on legibility and flexibility.</description>
+        <generator>Hugo 0.134.2</generator>
+        <language>en</language>
+        <copyright>Copyright © 2019-2024 Serghei Iakovlev</copyright>
+        <lastBuildDate>Mon, 16 Sep 2024 16:58:34 -0500</lastBuildDate>
+        <atom:link href="/posts/" rel="alternate" type="text/html" title="html" />
+        <atom:link href="/posts/feeds/feed.atom.xml" rel="alternate" type="text/xml" title="atom" />
+        <atom:link href="/posts/feeds/feed.rss.xml" rel="self" type="text/xml" title="feed" />
+        <atom:link href="/posts/feeds/feed.json" rel="alternate" type="application/feed+json" title="jsonfeed" />
+        <item>
+            <title>On Religion and Secularism</title>
+            <link>http://localhost:1313/posts/second_post/?utm_source=rss_feed</link>
+            <pubDate>Mon, 16 Sep 2024 16:58:34 -0500</pubDate>
+            <author>egrep@protonmail.ch (Serghei Iakovlev)</author>
+            <category>posts</category>
+            <guid isPermaLink="false">c18c5694adc60619b7665cf444a37451</guid>
+            <description>&lt;p&gt;It has long been my view that religion and government must be separate. Let me explain why. To be quite plain, everyone believes there is one or more correct ways to live life as a human. Some people are very free-spirited and open-minded, and they do not impose their beliefs onto others. Others are very dogmatic, and they believe others should live like them. The fact of the matter is we can&amp;rsquo;t quite let everyone do whatever the hell they want, right? Otherwise, really evil and mean people could do bad things to people. But if we restrict people too much, we might lose really important things too, like curiosity, artistry, and self-expression. Allowing people to express their thoughts and emotions is really important because it&amp;rsquo;s how we let each other know when we&amp;rsquo;re happy or sad, or when we&amp;rsquo;ve come up with a really cool idea (like a new tool!). Freedom of expression, and more generally Liberty, helps people have better lives.&lt;/p&gt;</description>
+        </item>
+    
+        <item>
+            <title>First post</title>
+            <link>http://localhost:1313/posts/mypost/?utm_source=rss_feed</link>
+            <pubDate>Mon, 16 Sep 2024 13:22:22 -0500</pubDate>
+            <author>egrep@protonmail.ch (Serghei Iakovlev)</author>
+            <category>posts</category>
+            <guid isPermaLink="false">e9bcfdbc2883980d993c7a937ba048b7</guid>
+            <description>&lt;p&gt;This is the first of many posts! HELLO Brave New World! On to great things! To glory and goodness!&#xA;One of the most important things humanity ever did was to create writing. And oh my! Can it be?&#xA;Is it true that this wonderful markdown code automatically picks up the writing from the last place where it was. Or is it just that I am a foolish creature? I know not, no indeed.&lt;/p&gt;</description>
+        </item>
+    
+    </channel>
+</rss>
