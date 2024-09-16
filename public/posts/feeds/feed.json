@@ -1,0 +1,32 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Posts - The Literary Rat",
+  "home_page_url": "https://LiteraryRat.github.io/?utm_source=json_feed",
+  
+  "description": "Ed is a Hugo theme designed for textual editors based on minimal computing principles, and focused on legibility and flexibility.",
+  "icon": "https://LiteraryRat.github.io/img/open-graph-logo_hu1096175607311285209.png",
+  "favicon": "https://LiteraryRat.github.io/img/open-graph-logo_hu1096175607311285209.png",
+  "authors": [
+    {
+      "name": "Serghei Iakovlev",
+      "url": "https://twitter.com/egreps"
+    }
+  ],
+  "language" : "en",
+  "items": [
+    {
+      "id": "335223ee-f74b-5ce2-89d0-ea43899a96c1",
+      "url": "https://LiteraryRat.github.io/posts/second_post/?utm_source=json_feed",
+      "title": "On Religion and Secularism",
+      "summary": "It has long been my view that religion and government must be separate. Let me explain why. To be quite plain, everyone believes there is one or more correct ways to live life as a human. Some people are very free-spirited and open-minded, and they do not impose their beliefs onto others. Others are very dogmatic, and they believe others should live like them. The fact of the matter is we can\u0026rsquo;t quite let everyone do whatever the hell they want, right? Otherwise, really evil and mean people could do bad things to people. But if we restrict people too much, we might lose really important things too, like curiosity, artistry, and self-expression. Allowing people to express their thoughts and emotions is really important because it\u0026rsquo;s how we let each other know when we\u0026rsquo;re happy or sad, or when we\u0026rsquo;ve come up with a really cool idea (like a new tool!). Freedom of expression, and more generally Liberty, helps people have better lives.",
+      "date_published": "2024-09-16T16:58:34-05:00"
+    },
+    {
+      "id": "060cd1f7-f1a0-59c1-39ff-3a84f6c44b3f",
+      "url": "https://LiteraryRat.github.io/posts/mypost/?utm_source=json_feed",
+      "title": "First post",
+      "summary": "This is the first of many posts! HELLO Brave New World! On to great things! To glory and goodness! One of the most important things humanity ever did was to create writing. And oh my! Can it be? Is it true that this wonderful markdown code automatically picks up the writing from the last place where it was. Or is it just that I am a foolish creature? I know not, no indeed.",
+      "date_published": "2024-09-16T13:22:22-05:00"
+    }
+  ]
+}

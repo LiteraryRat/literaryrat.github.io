@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en" xml:base="https://LiteraryRat.github.io/">
+    <title>Narratives - The Literary Rat</title>
+    <subtitle type="html"><![CDATA[Ed is a Hugo theme designed for textual editors based on minimal computing principles, and focused on legibility and flexibility.]]></subtitle>
+    <link href="/narratives/" rel="alternate" type="text/html" title="html" />
+    <link href="/narratives/feeds/feed.atom.xml" rel="self" type="text/xml" title="atom" />
+    <link href="/narratives/feeds/feed.rss.xml" rel="alternate" type="text/xml" title="feed" />
+    <link href="/narratives/feeds/feed.json" rel="alternate" type="application/feed+json" title="jsonfeed" />
+    <icon>https://LiteraryRat.github.io/img/open-graph-logo_hu1096175607311285209.png</icon>
+    <logo>https://LiteraryRat.github.io/img/open-graph-logo_hu1096175607311285209.png</logo>
+    <author>
+        <name>Serghei Iakovlev</name>
+        <email>egrep@protonmail.ch</email>
+    </author>
+    <rights>Copyright © 2019-2024 Serghei Iakovlev</rights>
+    <generator uri="https://gohugo.io" version="0.134.2">Hugo</generator>
+    <updated>2024-09-16T16:58:34-05:00</updated>
+    <id>urn:uuid:003adcd5-2745-50c9-6931-e9fdd17d3ff4</id>
+    <entry>
+        
+        <category term="narratives" />
+        
+        <link rel="alternate" type="type/html" href="https://LiteraryRat.github.io/narratives/narrative/?utm_source=atom_feed" />
+        <title type="html"><![CDATA[Narrative of the Life of Frederick Douglass]]></title>
+        
+        
+        
+        <published>2016-01-18T00:00:00Z</published>
+        <updated>2016-01-18T00:00:00Z</updated>
+        <id>urn:uuid:360728cd-7d1a-552b-89cc-5ec05aadd52d</id>
+        
+                <author>
+                    <name>Frederick Douglass</name>
+                </author>
+        
+        <summary type="html"><![CDATA[<hr>
+<h2 id="editors-note">Editor&rsquo;s note</h2>
+<p>This version of <em>Narrative of the Life of Frederick Douglass</em> was adapted from <em>The Project Gutenberg EBook of The Narrative of the Life of Frederick Douglass, by Frederick Douglass</em>. The <a href="http://www.gutenberg.org/">Guttenberg file</a> does not tell us which witness was used in making their digital edition. The edition below is only a slightly modified version of the Guttenberg text, and therefore should not be taken too seriously as an edition. I use the text mostly to show a few affordances of using Ed for long form narrative. This page, for example, showcases a different sidebar than the rest of our sample site, with a table of content of the novel generated out of metadata in the source file. In addition, reading morsels of the novel on your different devices can give you a sense of the experience of reading prose using Ed, and shows you an example of the optional sidebar with a table of contents. A few other features of this page are described in more detail in the <a href="/documentation/">Documentation</a>.</p>]]></summary>
+    </entry>
+</feed>
