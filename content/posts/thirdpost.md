@@ -1,4 +1,8 @@
-+++ title = 'Trying to add pictures' date = 2025-01-03 draft = false +++
++++
+title = "Trying to add pictures"
+date = "2025-01-03"
+draft = false
++++
 
 Let's try to add pictures on a markdown!
 
