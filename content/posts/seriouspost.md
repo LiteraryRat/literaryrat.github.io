@@ -27,3 +27,5 @@ So now on to other things. Here are some thing I want to write about on here in 
 6. Strong cities.
 7. My favorite shows and movies.
 8. My favorite books
+
+
