@@ -1,5 +1,4 @@
 +++ title = "Serious post" date = "2025-01-04" draft = false +++
-
 Ok I want to write about some serious stuff now. I've gotten the hang of writing like this now——I think——and I would like 
 to now write things that I really care about. So let's do this. The topic of discussion will be... nah just kidding I'm going to 
 be more disorganized than that. Let me write about some things that I want to not forget. 
