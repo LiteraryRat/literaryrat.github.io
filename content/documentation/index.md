@@ -1,6 +1,6 @@
 ---
 title: Documentation
-author: Alex Gil
+author: Literary Rat
 featuredImage: screenshot-home.png
 ---
 
@@ -8,96 +8,32 @@ featuredImage: screenshot-home.png
 
 ---
 
-## Prerequisites
+## Foreword
 
-This documentation was built with beginners in mind, but has the necessary information for more seasoned producers.
+This section is meant to provide resources for interesting articles, websites, physical libraries, museums, etc. My vision of it was a sort of cultural library. I'm going to divide it up into sections. Might change in the future (this is obviously very much a work in progress). 
 
-To install and use Ed you will be using your terminal. If you need a refresher, I highly recommend "{{< link src="https://www.computervillage.org/articles/CommandLine.pdf" class="external" target="_blank" hreflang="en" rel="noopener noreferrer" >}}The Command Line Crash Course{{< /link >}}". Working knowledge of HTML and CSS is also taken for granted. If you're new to HTML and CSS, you may want to check out the relevant courses on {{< link src="https://www.codecademy.com/learn/web" class="external" target="_blank" hreflang="en" rel="noopener noreferrer" >}}codecademy.com{{< /link >}}.
+Happy exploring!
 
----
-
-## Installing Ed
-
-Before starting, please be sure that you have {{< link src="https://gohugo.io/getting-started/quick-start/#step-1-install-hugo" class="external" target="_blank" hreflang="en" rel="noopener noreferrer" >}}installed Hugo{{< /link >}} and {{< link src="https://gohugo.io/getting-started/quick-start/#step-2-create-a-new-site" class="external" target="_blank" hreflang="en" rel="noopener noreferrer" >}}created a new site{{< /link >}}. After that, you are ready to install Ed.
-
-Please note, to install Ed, you must have {{< link src="https://golang.org/dl/" class="external" target="_blank" hreflang="en" rel="noopener noreferrer" >}}Go >= 1.12{{< /link >}} installed on your computer. You probably have Go already, but if you don't, the easiest way is probably to install is to follow {{< link src="https://go.dev/doc/install" class="external" target="_blank" hreflang="en" rel="noopener noreferrer" >}}Go installation instruction{{< /link >}}. To check if Go is running on your system enter the following line on your terminal (remember to ignore the `$`):
-
-~~~ bash
-$ go version
-~~~
-
-If you don't get an error, you're good to go. Using the `cd` command on your terminal, navigate to the folder where you keep your web projects. Once you're in the folder where project live, initialize the {{< link src="https://gohugo.io/hugo-modules" class="external" target="_blank" hreflang="en" rel="noopener noreferrer" >}}Hugo Modules{{< /link >}} system using the following line (replace `<your_user>` and `<your_project>` by real names):
-
-*Note: If you have already initialized Hugo Modules for your site, you can skip this step.*
-
-~~~ bash
-$ hugo mod init github.com/<your_user>/<your_project>
-~~~
-
-If you haven't run this command before, your terminal output should
-look similar to the following:
-
-~~~
-go: creating new go.mod: module github.com/<your_user>/<your_project>
-go: to add module requirements and sums:
-    go mod tidy
-~~~
-
-Take a look inside the `{{< link src="https://github.com/sergeyklay/gohugo-theme-ed/tree/main/exampleSite" class="external" target="_blank" hreflang="en" rel="noopener noreferrer" >}}exampleSite{{< /link >}}` folder of the Ed theme. You'll find a folder called `{{< link src="https://github.com/sergeyklay/gohugo-theme-ed/blob/main/exampleSite/config" class="external" target="_blank" hreflang="en" rel="noopener noreferrer" >}}config{{< /link >}}`. Copy the `config` folder in the root directory of your Hugo site. After copying, review the contents of the `config` folder and adjust the settings according to your project's needs.
-
-By default, when you copy the `config` folder to the root of your Hugo site, the file `config/_default/config.yaml` should contain the following lines:
-
-``` yaml
-module:
-  # ...
-  # there might be additional settings here
-  # that are not relevant at the moment
-  # ...
-  imports:
-    - path: github.com/sergeyklay/gohugo-theme-ed
-```
-
-If these lines are missing for some reason, make sure to add them:
-
-~~~ yaml
-module:
-  imports:
-    - path: github.com/sergeyklay/gohugo-theme-ed
-~~~
-
-Finally, install Hugo Modules using the following command (remember you can copy and paste):
-
-~~~ bash
-$ hugo mod get
-~~~
-
-Your terminal output should look similar to the following:
-
-```
-go: no module dependencies to download
-go: downloading github.com/sergeyklay/gohugo-theme-ed v0.8.0
-go: added github.com/sergeyklay/gohugo-theme-ed v0.8.0
-hugo: downloading modules …
-hugo: collected modules in 5342 ms
-```
+The Literary Rat\
+January 2024
 
 ---
 
-## Getting started
+## Books
 
-After installing the theme successfully it requires a just a few more steps to get your site running.
+1. Local libraries: go to your local library!—if you have one. If you don't have a big library near you (that sucks) try seeing if there are any "mini-libraries" where people leave books for the public. I've found a couple in my neighborhood and in other cities and I know there are many initiatives to provide the public with free books in many cities.
+2. Online libraries and archives. These are the ones I use, and they have some really good books! Unfortunately some got taken down due to copyright :( but there's still some great stuff in here!
+    https://openlibrary.org/
+    https://www.gutenberg.org/
 
-If you create a new Hugo project, the `content` folder is blank by default. You can copy the `content` folder from `exampleSite/content` to the project root directory to preview.
+3. Your local bookstore: now of course here in the US we have Barnes & Noble which is great and all (I'm happy they're finding success now after some dark years) but I think there's great value in supporting local bookstores. Not only do they have more soul I think they also allow you to support readership in a more meaningful way by helping a small business and the reading community in your town. In fact, I'm going to make it a goal this year to visit more local bookstores. 
+4. Old book giveaways: Half Price Books is big in the US (not free but cheap) but also schools and libraries sometimes give out books for free they are trying to get rid of. I've gotten some real gems over the years. Also yard sales can be a bonanza (I'm guessing, idk I've never tried getting books that way).
 
-To see if Ed is working properly we will take advantage of Hugo's built in server. You can build the first version of your site and run the Hugo server at the same time by entering:
+---
 
-~~~ bash
-$ hugo server
-~~~
+## Literary magazines
 
-Copy the url from your terminal log and paste it into your browser of choice. This url usually looks something like this `http://localhost:1313`. At this point you should be looking at your very own working version of Ed:
 
-{{< img src="screenshot-home.png" alt="Your very own Ed" >}}
 
 ---
 
@@ -456,10 +392,4 @@ For more information on giscus, visit the {{< link src="https://giscus.app/" cla
 That should do it. If you have suggestions on how to improve Ed, make sure to leave us a line on {{< link src="https://github.com/sergeyklay/gohugo-theme-ed/issues" class="external" target="_blank" hreflang="en" rel="noopener noreferrer" >}}our issues page{{< /link >}}, or send us a pull request. If you run into an issue that isn't answered by this documentation or the `{{< link src="https://github.com/sergeyklay/gohugo-theme-ed/tree/main/exampleSite" class="external" target="_blank" hreflang="en" rel="noopener noreferrer" >}}exampleSite{{< /link >}}`, then visit the {{< link src="https://discourse.gohugo.io/" class="external" target="_blank" hreflang="en" rel="noopener noreferrer" >}}Hugo forum{{< /link >}}. The folks there are helpful and friendly. **Before** asking your question, be sure to read the {{< link src="https://discourse.gohugo.io/t/requesting-help/9132" class="external" target="_blank" hreflang="en" rel="noopener noreferrer" >}}requesting help guidelines{{< /link >}}. Feel free to tag me in your question, my forum username is {{< link src="https://discourse.gohugo.io/u/egrep/summary" class="external" target="_blank" hreflang="en" rel="noopener noreferrer" >}}@egrep{{< /link >}}.
 
 
-Happy editing!
 
-Serghei Iakovlev\
-April 2024
-
-Alex Gil\
-April 2016
