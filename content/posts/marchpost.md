@@ -67,5 +67,9 @@ We treat the Internet like a supercar, except it’s a supercar that should neve
 Improving my habitudes with technology
 
 No more youtube on my phone. I will have to find more intellectually engaging ways to pass the time when I am bored. I can still watch YT on my ipad or PC
-Idk bruh lel
+
+
+
+
+
 
